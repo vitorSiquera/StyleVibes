@@ -19,8 +19,11 @@ body{
 
 .cabecalho {
     background-color: #000000;
-    padding: 20px; 
+    padding: 15px; 
     color: white; 
+    position: relative;
+    width: 100%;
+    top: 0;
 }
 
 .logo h1 {
@@ -79,9 +82,9 @@ body{
     width: 100%;
     background-color: #000000; 
     color: white; 
-    padding: 40px; 
+    padding: 30px; 
     bottom: 0;
-   position: fixed;
+   position:relative;
 
 
 }
