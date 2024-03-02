@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: coconut;
+    background-color: #90C0E6;
+    font-size: 20px;
+}
+
+
+@font-face {
+    font-family: coconut;
+    src: url(ShantellSans-Italic[BNCE\,INFM\,SPAC\,wght].ttf);
+ }
+/*CABEÇALHO*/
+
+.cabecalho {
+    background-color: #000000;
+    padding: 20px; 
+    color: white; 
+}
+
+.logo h1 {
+    margin: 0; 
+}
+
+.menu ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.menu ul li a {
+    color: white; 
+    text-decoration: none; 
+}
+
+
+
+/*CONTEUDO*/
+.conteudo{
+    width: 100%;    
+    display: flex;
+}
+
+.texto{
+    font-size: 1px;
+    margin-top: 50px;
+    margin: 5%;
+}
+
+.texto h1{
+    font-size: 30px;
+    font-family: coconut;
+}
+.texto h2{
+    font-weight: normal;
+    font-family: coconut;
+    font-size: 20px;
+}
+
+.imagem1{
+    margin-top: 80px;
+    margin-right: 40px;
+}
+
+
+
+/*RODAPE*/
+
+.rodape {
+    width: 100%;
+    background-color: #000000; 
+    color: white; 
+    padding: 40px; 
+    bottom: 0;
+   position: fixed;
+
+
+}
+
+.conteudo-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.menu-rodape ul {
+    list-style: none;
+    padding: 0; 
+}
+
+.menu-rodape ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.menu-rodape ul li:last-child {
+    margin-right: 10rem; 
+}
+
+.menu-rodape ul li a {
+    color: white; 
+    text-decoration: none; 
+}
