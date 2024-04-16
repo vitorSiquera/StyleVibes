@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     font-family: coconut;
@@ -17,22 +21,17 @@ body {
 }
 
 .cabecalho {
-    background-color: #000000;
-    padding: 15px;
+    background-color: black;
+    padding: 2%;
     color: white;
     position: fixed;
     width: 100%;
     top: 0;
 }
 
-.logo h1 {
-    margin: 0;
-}
-
 .menu {
     display: flex;
-    justify-content: space-between;
-    margin-right: 5%; 
+    justify-content: center;
 }
 
 .menu-item {
@@ -51,28 +50,30 @@ body {
 .conteudo {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-top: 12%; 
+    margin-top: 20%;
+    font-size: 3rem;
+}
+
+.image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.texto2 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.texto2 h1 {
+    margin-bottom: 10px;
+}
+
+.texto2 h2 {
     
-}
-
-.texto {
-    margin-right: 5%;
-    margin-left: 1%;
-}
-
-.texto h1 {
-    font-size: 30px;
-}
-
-.texto h2 {
-    font-weight: normal;
-    font-size: 20px;
-}
-
-.imagem1 {
-    margin-right: 40px;
 }
 
 .rodape {
@@ -81,7 +82,7 @@ body {
     color: white;
     padding: 30px;
     bottom: 0;
-    position: fixed;
+    position: relative;
 }
 
 .conteudo-rodape {
