@@ -1,118 +1,108 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     font-family: coconut;
     background-color: #90C0E6;
     font-size: 20px;
 }
 
-
 @font-face {
     font-family: coconut;
     src: url(ShantellSans-Italic[BNCE\,INFM\,SPAC\,wght].ttf);
- }
-/*CABEÇALHO*/
+}
 
 .cabecalho {
     background-color: #000000;
-    padding: 15px; 
-    color: white; 
-    position:fixed;
+    padding: 15px;
+    color: white;
+    position: fixed;
     width: 100%;
     top: 0;
 }
 
 .logo h1 {
-    margin: 0; 
+    margin: 0;
 }
 
-.menu ul {
-    list-style: none; 
-    padding: 0; 
-}
-
-.menu ul li {
-    display: inline;
-    margin-right: 20px; 
-}
-
-.menu ul li a {
-    color: white; 
-    text-decoration: none; 
-}
-
-
-
-/*CONTEUDO*/
-.conteudo{
-    width: 100%;    
+.menu {
     display: flex;
+    justify-content: space-between;
+    margin-right: 5%; 
 }
 
-.texto{
-    font-size: 1px;
-    margin-top: 50%;
-    margin: 5%;
+.menu-item {
+    margin-right: 20px;
 }
 
-.texto h1{
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12%; 
+    
+}
+
+.texto {
+    margin-right: 5%;
+    margin-left: 1%;
+}
+
+.texto h1 {
     font-size: 30px;
-    font-family: coconut;
 }
-.texto h2{
+
+.texto h2 {
     font-weight: normal;
-    font-family: coconut;
     font-size: 20px;
 }
 
-.imagem1{
-    margin-top: 80px;
+.imagem1 {
     margin-right: 40px;
 }
 
-
-
-/*RODAPE*/
-
 .rodape {
     width: 100%;
-    background-color: #000000; 
-    color: white; 
-    padding: 30px; 
+    background-color: #000000;
+    color: white;
+    padding: 30px;
     bottom: 0;
-  
-    position:fixed;
-
-
+    position: fixed;
 }
 
 .conteudo-rodape {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-   
 }
 
-.menu-rodape ul {
-    list-style: none;
-    padding: 0; 
+.menu-rodape {
+    display: flex;
 }
 
-.menu-rodape ul li {
-    display: inline;
-    margin-right: 20px; 
+.menu-item {
+    margin-right: 20px;
 }
 
-.menu-rodape ul li:last-child {
-    margin-right: 10rem; 
+.menu-item:last-child {
+    margin-right: 0;
 }
 
-.menu-rodape ul li a {
-    color: white; 
-    text-decoration: none; 
+.menu-item a {
+    color: white;
+    text-decoration: none;
 }
