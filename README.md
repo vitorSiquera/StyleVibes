@@ -1,7 +1,5 @@
 # Digital Connect
 
-![Digital Connect Logo](images/logo.png)
-
 Digital Connect é um projeto desenvolvido como parte de um trabalho acadêmico para a faculdade. É um site projetado para facilitar conexões no mundo digital, fornecendo uma plataforma para que profissionais e empresas possam se encontrar e colaborar em projetos digitais.
 
 ## Funcionalidades
@@ -27,7 +25,7 @@ Digital Connect é um projeto desenvolvido como parte de um trabalho acadêmico 
 
 ## Link para o site
 
-1. você pode acessar o site clicando aqui
+1. você pode acessar o site clicando aqui [Digital Connect](https://seudominio.com)
 
 ## Como Executar
 
