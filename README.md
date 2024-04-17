@@ -1,5 +1,7 @@
 # Digital Connect
 
+
+
 Digital Connect é um projeto desenvolvido como parte de um trabalho acadêmico para a faculdade. É um site projetado para facilitar conexões no mundo digital, fornecendo uma plataforma para que profissionais e empresas possam se encontrar e colaborar em projetos digitais.
 
 ## Funcionalidades
@@ -16,16 +18,16 @@ Digital Connect é um projeto desenvolvido como parte de um trabalho acadêmico 
 
 ## Screenshots
 
-![Digital Connect Homepage](/WhatsApp%20Image%202024-04-16%20at%2021.03.44.jpeg)
-![Digital Connec ](/WhatsApp%20Image%202024-04-16%20at%2021.04.08.jpeg)
-![Digital Connect Homepage](/WhatsApp%20Image%202024-04-16%20at%2021.04.24.jpeg)
+![Digital Connect Homepage](/images/WhatsApp%20Image%202024-04-16%20at%2021.03.44.jpeg)
+![Digital Connec ](/images/WhatsApp%20Image%202024-04-16%20at%2021.04.08.jpeg)
+![Digital Connect Homepage](/images/WhatsApp%20Image%202024-04-16%20at%2021.04.24.jpeg)
 
 
 
 
 ## Link para o site
 
-1. você pode acessar o site clicando aqui [Digital Connect](https://seudominio.com)
+1. você pode acessar o site clicando aqui [Digital Connect](https://style-vibes.vercel.app/)
 
 ## Como Executar
 
