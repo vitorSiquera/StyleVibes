@@ -18,7 +18,16 @@ Digital Connect é um projeto desenvolvido como parte de um trabalho acadêmico 
 
 ## Screenshots
 
-![Digital Connect Homepage](images/homepage.png)
+![Digital Connect Homepage](/WhatsApp%20Image%202024-04-16%20at%2021.03.44.jpeg)
+![Digital Connec ](/WhatsApp%20Image%202024-04-16%20at%2021.04.08.jpeg)
+![Digital Connect Homepage](/WhatsApp%20Image%202024-04-16%20at%2021.04.24.jpeg)
+
+
+
+
+## Link para o site
+
+1. você pode acessar o site clicando aqui
 
 ## Como Executar
 
